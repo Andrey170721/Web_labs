@@ -9,6 +9,7 @@ h1 {
     font-weight: normal;
     color: black;
 }
+
 h2{
     font-size: 20px;
     text-transform: uppercase;
@@ -74,6 +75,7 @@ img.prod{
 img.recProd{
     height: 80px;
 }
+
 p.white{
     font-family: 'geneva', sans-serif;
     text-align: center;
@@ -129,3 +131,10 @@ nav.navigation{
     right: 0;
 }
 
+a{
+    font-family: 'geneva', sans-serif;
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+    text-decoration: none;
+}
