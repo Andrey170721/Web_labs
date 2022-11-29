@@ -33,48 +33,58 @@ h4{
 }
 h3.recProd{
     font-family: 'geneva', sans-serif;
-    margin: 0;
     font-size: 15px;
     text-transform: uppercase;
     line-height: 18px;
     font-weight: normal;
     color: black;
+    margin-top: 15px;
 }
 h4.recProd{
     font-family: 'geneva', sans-serif;
     text-align: center;
+    margin-top: 15px;
 }
-article.class1{
+article.prod{
+    display:grid;
     width: 500px;
     height: 120px;
     text-align: center;
-    background-color: rgb(231, 231, 231);
+    background-color: rgb(241, 241, 241);
     margin: auto;
     margin-bottom: 20px;
+
 }
-article.class2{
+article.recProd{
     display: flex;
     flex-direction: column;
     background-color: white;
-    margin: auto;
     width: 120px;
     height:200px;
+    margin-bottom: 30px;
+    margin-right: 30px;
 }
 img.prod{
     width: 150px;
     height: 80px;
     margin-bottom: 1px;
-    margin-left: -320px;
+    margin-left: 10px;
 
 }
 img.recProd{
-    width: 150px;
     height: 80px;
 }
-p{
+p.white{
     font-family: 'geneva', sans-serif;
     text-align: center;
     margin-top: 10px;
+    color: white;
+}
+p.black{
+    font-family: 'geneva', sans-serif;
+    text-align: center;
+    margin-top: 10px;
+    color: black;
 }
 strong{
     color: #dc3131;
@@ -85,13 +95,37 @@ li{
 section{
 
 }
-aside{
+aside[hidden]{
     flex-wrap: wrap;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    background-color: black;
-    font-family: 'geneva', sans-serif;
     text-align: center;
+    background-color: rgb(241, 241, 241);
+    font-family: 'geneva', sans-serif;
+    margin-bottom: 30px;
 
 }
+
+@media(max-width:700px) {
+    aside[hidden]{
+        display:none;
+    }
+}
+
+div.head{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+nav.navigation{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    font-family: 'geneva', sans-serif;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
