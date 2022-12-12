@@ -17,6 +17,36 @@ img.bigProd{
     scale: 70%;
 }
 
-article.prodName{
+article.prodFeature{
     display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+p.description{
+    font-family: 'geneva', sans-serif;
+    text-align: left;
+    margin-top: 10px;
+    color: black;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+div.PrText{
+    margin-right: 100px;
+}
+
+h2.description{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
+    color: black;
+    margin-left: 100px;
+}
+h3.description{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
+    color: black;
+    margin-left: 100px;
 }

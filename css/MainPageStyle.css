@@ -124,6 +124,7 @@ nav.navigation{
     display: flex;
     justify-content: space-around;
     background-color: black;
+    height: 40px;
     font-family: 'geneva', sans-serif;
     position: fixed;
     top: 0;
@@ -131,10 +132,21 @@ nav.navigation{
     right: 0;
 }
 
-a{
+a.navBar{
     font-family: 'geneva', sans-serif;
     text-align: center;
     margin-top: 10px;
     color: white;
+    text-decoration: none;
+}
+
+a.prName{
+    font-family: 'geneva', sans-serif;
+    margin: 0;
+    font-size: 15px;
+    text-transform: uppercase;
+    line-height: 18px;
+    font-weight: normal;
+    color: black;
     text-decoration: none;
 }
