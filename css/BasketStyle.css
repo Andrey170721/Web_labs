@@ -1,0 +1,21 @@
+article.table{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+div.div{
+    font-family: 'geneva', sans-serif;
+    color: black;
+}
+
+div.div2{
+    font-family: 'geneva', sans-serif;
+    color: black;
+
+}
+
+input.delete{
+    font-family: 'geneva', sans-serif;
+    color: black;
+}
+
