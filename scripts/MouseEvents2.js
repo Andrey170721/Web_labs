@@ -25,5 +25,7 @@ if (document.location.pathname === '/web_labs/html/MainPage.html'){
     navbarItems[4].style.textDecoration = 'overline #FF3028'
 } else if(document.location.pathname === '/web_labs/html/FAQ.html') {
     navbarItems[5].style.textDecoration = 'overline #FF3028'
+} else if(document.location.pathname === '/web_labs/html/Profile.html') {
+    navbarItems[6].style.textDecoration = 'overline #FF3028'
 }
 console.log(document.location)
